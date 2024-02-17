@@ -1,0 +1,24 @@
+uuid: 9f7ccbe7-017c-42ba-9db4-85125b13d6c9
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cklb_title
+    - field.field.block_content.cklb_title.cklb_title
+_core:
+  default_config_hash: mooMoyM81OgdulgwFrEcJ6xrm_K9MNP6yuBHIzOadsI
+id: block_content.cklb_title.default
+targetEntityType: block_content
+bundle: cklb_title
+mode: default
+content:
+  cklb_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  search_api_excerpt: true

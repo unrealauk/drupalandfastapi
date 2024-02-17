@@ -1,0 +1,18 @@
+uuid: d31d15b8-e273-4f59-8aad-6c3a5f38efa9
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_order
+    - serialization
+    - user
+id: entity.commerce_order
+plugin_id: 'entity:commerce_order'
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - json
+  authentication:
+    - cookie

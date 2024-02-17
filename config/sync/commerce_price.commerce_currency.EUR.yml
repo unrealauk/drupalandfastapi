@@ -1,0 +1,11 @@
+uuid: 4f07e3e7-dc44-4a09-8dd1-1d6d1e297c77
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: XxFUKntgvrTvg8AwkVU42Ni3nulYTCXSnAjypbBUPnw
+currencyCode: EUR
+name: Euro
+numericCode: '978'
+symbol: €
+fractionDigits: 2
