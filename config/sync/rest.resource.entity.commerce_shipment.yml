@@ -1,22 +1,20 @@
-uuid: d31d15b8-e273-4f59-8aad-6c3a5f38efa9
+uuid: 0c8cc61f-16a3-45f3-8689-82e458b33246
 langcode: en
 status: true
 dependencies:
   module:
-    - commerce_order
+    - commerce_shipping
     - serialization
     - user
-id: entity.commerce_order
-plugin_id: 'entity:commerce_order'
+id: entity.commerce_shipment
+plugin_id: 'entity:commerce_shipment'
 granularity: resource
 configuration:
   methods:
     - GET
     - POST
     - DELETE
-    - PATCH
   formats:
     - json
-    - xml
   authentication:
     - cookie
